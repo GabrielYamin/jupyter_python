@@ -28,9 +28,9 @@ def simulate_to_end_lockdown(initial, R):
         days += 1
     print(f"Given your input parameters, {days} number of days until there are less than 100 people infected.")
     return days
-
+# ~~~~~~~~~~~~~~ END of solution ~~~~~~~~~~~~
 # MAIN for testing
-def main()
+def main():
     print(simulate_to_end_lockdown(1000, 0.9))	
     print(simulate_covid_and_lockdown( 10, 1.4, 30, 20, 0.6))
 

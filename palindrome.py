@@ -19,7 +19,8 @@ def palindrome(str):
                 a, b = True, len(substring)
     return a, b
 
-
+#  ~ ~ ~ END of Task 3 ~ ~ ~
+# some tests for checking functionality:
 def tests():
     tests = [("abbabbc",True,5),("abbabc",True,4),("abcdefg",False,0),("bascccca",True,4),("abacdefg",True,3),("aaabbcacacacccca",True,7)]
     for i in range(len(tests)):

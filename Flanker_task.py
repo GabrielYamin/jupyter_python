@@ -12,7 +12,7 @@ def main():
     incorrect_df = df[df.Correct == 0]
     incorrect_Mean = incorrect_df["ReactionTime"].mean()
     # ~print results
-    print(f"A1. mean accuracy across the task: \t\t\t\t\t\t {mean}")
+    print(f"A1. mean accuracy across the task: \t\t\t\t\t {mean}")
     print(f"A2. mean reaction time across the task - for correct responses only:\t {correct_Mean}")
     print(f"A3. mean reaction time across the task - for incorrect responses only:\t {incorrect_Mean}")
     # TASK B
