@@ -1,4 +1,5 @@
 
+# Task 3 - Palindrome
 def recursive_poli(str):
     """receives @str and returns True if a polindrome and False otherwise"""
     if len(str) == 0 or len(str) == 1:

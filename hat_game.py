@@ -1,5 +1,5 @@
 import numpy as np
-# EX4
+# Task 4 - Hat game
 def hat_game(N):
     """conducts a Hat game as explained in the jupyter document"""
     # False -> on lap, True -> on head
